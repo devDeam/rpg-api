@@ -34,6 +34,7 @@ src/
 ├── services/           # Lógica de negocio (Simulador de combate)
 └── index.ts            # Punto de entrada de la aplicación
 
+```
 ---
 
 ## Instalación y Ejecución
