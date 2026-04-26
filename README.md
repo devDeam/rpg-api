@@ -1,10 +1,10 @@
 # RPG de batalla API 
 
-Esta es una API REST profesional desarrollada con **Node.js**, **Express** y **TypeScript**. El proyecto permite la gestión de personajes de un juego de rol (RPG) y cuenta con un motor de simulación de batallas basado en atributos estratégicos.
+Esta es una API REST desarrollada con **Node.js**, **Express** y **TypeScript**. El proyecto permite la gestión de personajes de un juego de rol (RPG) y cuenta con un motor de simulación de batallas basado en atributos estratégicos.
 
 ## Características
 
-- **Arquitectura de Capas**: Separación clara entre Rutas, Controladores, Servicios y Modelos.
+- **Arquitectura de Capas**: Separación entre Rutas, Controladores, Servicios y Modelos.
 - **TypeScript Estricto**: Tipado completo para interfaces y respuestas de la API.
 - **CRUD Completo**: Gestión total de personajes (Crear, Leer, Actualizar, Eliminar).
 - **ID Autoincremental**: Sistema de identificación automática para fácil manejo en Postman.
@@ -90,9 +90,8 @@ Body requerido: { "id1": "0", "id2": "1" }
 
 ## Ejemplo de Objeto JSON para Postman
 
-Para crear un personaje o actualizarlo, usa este formato:
-
-JSON
+Para crear un personaje o actualizarlo, usa este formato: JSON
+```TypeScript
 {
     "nombre": "Galadriel",
     "colorPiel": "Blanco",
@@ -105,6 +104,7 @@ JSON
     }
 }
 
+```
 ---
 
 ## Autor
