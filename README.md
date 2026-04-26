@@ -24,7 +24,6 @@ Esta es una API REST profesional desarrollada con **Node.js**, **Express** y **T
 
 ## Estructura del Proyecto
 
-```text
 src/
 ├── config/             # Configuración del servidor (Puerto, CORS)
 ├── controllers/        # Controladores funcionales (Manejo de req/res)
@@ -34,7 +33,10 @@ src/
 ├── services/           # Lógica de negocio (Simulador de combate)
 └── index.ts            # Punto de entrada de la aplicación
 
+---
+
 ## Instalación y Ejecución
+
 Clonar el repositorio:
 
 Bash
@@ -50,8 +52,10 @@ Bash
 npm run dev
 El servidor se activará en: http://localhost:3000
 
+---
 
 ## Lógica de Combate
+
 El sistema de batalla no es aleatorio; se basa en un cálculo ponderado de los atributos de los personajes:
 
 Poder de Ataque: Se calcula multiplicando la Fuerza (daño físico) y la Magia (daño místico).
@@ -60,7 +64,10 @@ Defensa/Evasión: Se resta daño basado en la Agilidad (capacidad de esquivar) y
 
 Bono Estratégico: Si el atacante tiene un Conocimiento mayor que el defensor, recibe un multiplicador crítico de 1.15x.
 
+---
+
 ## Endpoints de la API
+
 Personajes (/api/characters)
 GET / - Listar todos los personajes (incluye personajes de prueba).
 
@@ -77,7 +84,10 @@ POST / - Simular un enfrentamiento entre dos personajes.
 
 Body requerido: { "id1": "0", "id2": "1" }
 
+---
+
 ## Ejemplo de Objeto JSON para Postman
+
 Para crear un personaje o actualizarlo, usa este formato:
 
 JSON
@@ -93,7 +103,10 @@ JSON
     }
 }
 
+---
+
 ## Autor
+
 *Daniel Almanza Martinez🇨🇴*
 
 
