@@ -1,0 +1,11 @@
+# --- Dependencias de Node ---
+node_modules/
+npm-debug.log*
+dist/
+lib/
+*.tsbuildinfo
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
