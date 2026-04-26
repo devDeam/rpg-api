@@ -24,6 +24,7 @@ Esta es una API REST profesional desarrollada con **Node.js**, **Express** y **T
 
 ## Estructura del Proyecto
 
+```text
 src/
 ├── config/             # Configuración del servidor (Puerto, CORS)
 ├── controllers/        # Controladores funcionales (Manejo de req/res)
